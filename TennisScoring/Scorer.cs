@@ -10,7 +10,8 @@ namespace TennisScoring
     {
         public string GetScore(int player1score, int player2score)
         {
-            return "score1 - score2";
+            if (player1score == player2score) return string.Format(Helpers.DEUCE, player1score);
+            return "invalid score";
         }
     }
 }
