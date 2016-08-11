@@ -1,0 +1,9 @@
+C:\DEV\katas\tennis-scoring\TennisScoring.Tests\bin\Debug\TennisScoring.Tests.dll
+C:\DEV\katas\tennis-scoring\TennisScoring.Tests\bin\Debug\TennisScoring.Tests.pdb
+C:\DEV\katas\tennis-scoring\TennisScoring.Tests\bin\Debug\nunit.framework.dll
+C:\DEV\katas\tennis-scoring\TennisScoring.Tests\bin\Debug\TennisScoring.dll
+C:\DEV\katas\tennis-scoring\TennisScoring.Tests\bin\Debug\TennisScoring.pdb
+C:\DEV\katas\tennis-scoring\TennisScoring.Tests\bin\Debug\nunit.framework.xml
+C:\DEV\katas\tennis-scoring\TennisScoring.Tests\obj\Debug\TennisScoring.Tests.csprojResolveAssemblyReference.cache
+C:\DEV\katas\tennis-scoring\TennisScoring.Tests\obj\Debug\TennisScoring.Tests.dll
+C:\DEV\katas\tennis-scoring\TennisScoring.Tests\obj\Debug\TennisScoring.Tests.pdb
