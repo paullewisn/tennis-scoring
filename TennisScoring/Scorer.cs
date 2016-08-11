@@ -8,15 +8,22 @@ namespace TennisScoring
 {
     public class Scorer
     {
-        public string GetScore(int player1score, int player2score)
+        public string GetScore(int player1Score, int player2Score)
         {
-            if (player1score == player2score && player1score != 40 && player2score != 40)
-                return string.Format(Helpers.ALL, player1score);
+            string player1ScoreStr = player1Score.ToString();
+            string player2ScoreStr = player2Score.ToString();
+            if (player1ScoreStr == "0") player1ScoreStr = Helpers.LOVE;
+            if (player2ScoreStr == "0") player2ScoreStr = Helpers.LOVE;
 
-            if (player1score == player2score && player1score == 40 && player2score == 40)
-                return string.Format(Helpers.DEUCE, player1score);
+            if (player1ScoreStr == player2ScoreStr && player1ScoreStr != Helpers.MAX_SCORE &&
+                player2ScoreStr != Helpers.MAX_SCORE)
+                return string.Format(Helpers.ALL, player1ScoreStr);
 
-            return "invalid score";
+            if (player1Score == player2Score && player1ScoreStr == Helpers.MAX_SCORE &&
+                player2ScoreStr == Helpers.MAX_SCORE)
+                return string.Format(Helpers.DEUCE, player1ScoreStr);
+
+            return string.Format(Helpers.SCORE, player1ScoreStr, player2ScoreStr);
         }
     }
 }

@@ -19,5 +19,9 @@ namespace TennisScoring
         public static string SCORE => "{0} - {1}";
 
         public static string ALL => "{0} all";
+
+        public static string LOVE => "love";
+
+        public static string MAX_SCORE => "40";
     }
 }
